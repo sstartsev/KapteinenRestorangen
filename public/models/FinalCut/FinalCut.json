@@ -1,0 +1,111 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "CeilingTile01_low": {
+            "shader": "Main shader"
+        },
+        "Group_BoatTable01_low": {
+            "shader": "Main shader"
+        },
+        "Group_BoatTable02_low": {
+            "shader": "Main shader"
+        },
+        "Group_Chairs01_low": {
+            "shader": "Main shader"
+        },
+        "Group_Chairs02_low": {
+            "shader": "Main shader"
+        },
+        "Group_DecoBulbs01_low": {
+            "shader": "Main shader"
+        },
+        "Group_DecoLamps01_low": {
+            "shader": "Main shader"
+        },
+        "Group_DoorFrames01_low": {
+            "shader": "Main shader"
+        },
+        "Group_Floor01_low": {
+            "shader": "Main shader"
+        },
+        "Group_Flower01_low": {
+            "shader": "Main shader"
+        },
+        "Group_FlowerPot01_low": {
+            "shader": "Main shader"
+        },
+        "Group_GlassFrames01_low": {
+            "shader": "Main shader"
+        },
+        "Group_KapteinenBoat01_low": {
+            "shader": "Main shader"
+        },
+        "Group_LampsCables01_low": {
+            "shader": "Main shader"
+        },
+        "Group_PaintingPlyFrameVase01_low": {
+            "shader": "Main shader"
+        },
+        "Group_Paintings01_low": {
+            "shader": "Main shader"
+        },
+        "Group_PerimeterWall01_low": {
+            "shader": "Main shader"
+        },
+        "Group_PlyPlusPlanks01_low": {
+            "shader": "Main shader"
+        },
+        "Group_SaltPepper01_low": {
+            "shader": "Main shader"
+        },
+        "Group_SaltPepper02_low": {
+            "shader": "Main shader"
+        },
+        "Group_Sofa01_low": {
+            "shader": "Main shader"
+        },
+        "Group_Table01_low": {
+            "shader": "Main shader"
+        },
+        "Group_Table02_low": {
+            "shader": "Main shader"
+        },
+        "Group_TowelBox01_low": {
+            "shader": "Main shader"
+        },
+        "Group_TowelBox02_low": {
+            "shader": "Main shader"
+        },
+        "Group_WestWallDecorations01_low": {
+            "shader": "Main shader"
+        },
+        "Group_WindowFrames01_low": {
+            "shader": "Main shader"
+        },
+        "Group_WindowHandles01_low": {
+            "shader": "Main shader"
+        }
+    }
+}

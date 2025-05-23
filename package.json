@@ -1,0 +1,43 @@
+{
+  "name": "kapteinenrestorangen",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@dimforge/rapier3d-compat": "^0.14.0",
+    "@types/stats.js": "^0.17.3",
+    "@types/three": "^0.174.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.174.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.15.0",
+    "@react-three/cannon": "^6.6.0",
+    "@react-three/drei": "^10.0.4",
+    "@react-three/fiber": "^9.0.4",
+    "@types/react": "^19.0.10",
+    "ammo.js": "^0.0.10",
+    "fast-simplex-noise": "^4.0.0",
+    "lil-gui": "^0.20.0",
+    "perlin-noise": "^0.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "simplex-noise": "^4.0.3",
+    "three-stdlib": "^2.35.14"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+      "three": "<rootDir>/node_modules/three/build/three.module.js"
+    }
+  }
+}
